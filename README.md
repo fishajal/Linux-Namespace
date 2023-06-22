@@ -1,20 +1,27 @@
 # Linux Namespace
-This project is used to make two network namespace on linux os and connect them using virtual ethernet interface.
-A network namespace is a powerful feature of Linux. In Linux, a network namespace is a way to create separate and isolated networks within a single computer. It’s like having multiple virtual networks on the same machine. It allows different processes or groups of processes to have their own independent network stacks, network interfaces, IP addresses, routing tables, and other network-related resources.
-# Getting Started
+
+This project is used to make two network namespace on linux os and connect them using virtual ethernet interface. A network namespace is a powerful feature of Linux. In Linux, a network namespace is a way to create separate and isolated networks within a single computer. It’s like having multiple virtual networks on the same machine. It allows different processes or groups of processes to have their own independent network stacks, network interfaces, IP addresses, routing tables, and other network-related resources.
 
 # Prerequisites
+
 1. Any virtualization software . Example : virtualbox
+
 2. Vagrant for  building and managing virtual machine environments
 
 # Installing
 
 1. Install virtualbox
+
     1.1 Download virtual box from this link <a href="https://www.virtualbox.org/wiki/Downloads">Download Virtualbox</a>
+
     1.2 Install virtualbox
+
 2. Install vagrant
+
     2.1 download vagrant from the this link <a href = "https://developer.hashicorp.com/vagrant/downloads?product_intent=vagrant">Download      Vagrant</a>
+
     2.2 Install vagrant
+
 3. Setting up environment
 
     3.1 Run < vagrant init > for initializing of vagran in a dtrectory
@@ -31,17 +38,17 @@ A network namespace is a powerful feature of Linux. In Linux, a network namespac
 
     3.7 run < vagrant ssh > to login to host maching to virtual machine
 
-4. Running the tests
+# Running the tests
 
-    4.1 Run the project with given bash script. it will creat two namespace and connect then for farther communication.
+1. Run the project with given bash script. it will creat two namespace and connect then for farther communication.
 
-    4.2 run < vagrant exit > to switch to host machine
+2. run < vagrant exit > to switch to host machine
 
-    4.3 run < vagrant halt > to shutdown virtual machine
+3.  run < vagrant halt > to shutdown virtual machine
 
-5. Blog post
+# Blog post
 
-    5.1 You can read my medium blog post regarding this topic from this link <a href="https://medium.com/@fi.shajal27/introduction-to-network-namespace-and-the-process-of-connecting-two-network-namespaces-d1817e292deb">Read blog</a>
+1. You can read my medium blog post regarding this topic from this link <a href="https://medium.com/@fi.shajal27/introduction-to-network-namespace-and-the-process-of-connecting-two-network-namespaces-d1817e292deb">Read blog</a>
 
 
     
